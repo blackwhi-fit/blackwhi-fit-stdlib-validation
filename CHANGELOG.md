@@ -7,4 +7,4 @@
 - Added canonical FIT library and package manifests, hash-pinned lockfile.
 - Added real engine test suite, bilingual documentation, official credits and security policy.
 - Prepared reproducible local `.fitpkg` build and verification.
-- **Not yet released publicly**. GitHub publishing and source license remain pending.
+- Source code published to GitHub; Apache-2.0 approved for original code. **No signed Registry release or official GitHub release is claimed.**

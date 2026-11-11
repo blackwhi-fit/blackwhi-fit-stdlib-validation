@@ -20,7 +20,8 @@
   ],
   "verified_runtime": "starlark-rust 0.14.2",
   "expected_test_cases": 255,
-  "github_published": false,
-  "license_approved": false,
-  "remote_signed": false
+  "github_published": true,
+  "license_approved": true,
+  "remote_signed": false,
+  "license_spdx": "Apache-2.0"
 }

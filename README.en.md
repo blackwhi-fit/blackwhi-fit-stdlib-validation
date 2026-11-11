@@ -28,4 +28,4 @@ Read [Integration](docs/INTEGRATION.en.md) for a version-pinned FIT import.
 
 ## License
 
-**Not selected.** No open-source rights, redistribution grants or trademark licenses are implied. Approve a legal license before public publication.
+Original source code is licensed under **Apache License, Version 2.0** (`SPDX: Apache-2.0`). See [LICENSE](LICENSE) and [NOTICE](NOTICE). Commercial use, modification and redistribution are allowed under the license terms; trademarks are excluded. GitHub source availability does not establish a signed Registry release.

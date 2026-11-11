@@ -7,4 +7,4 @@
 5. Update both README languages and the API reference for user-visible changes.
 6. Never commit secrets, signing keys, or generated package binaries.
 7. Use conventional commits and independent pull requests.
-8. Public contribution licensing remains unresolved; **do not accept external code contributions** until the project license and contributor terms are approved.
+8. Original project code is licensed under Apache-2.0. Contributions intentionally submitted for inclusion are subject to Apache-2.0 Section 5 unless expressly stated otherwise; verify contributor rights and third-party license compatibility before merging.

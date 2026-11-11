@@ -7,6 +7,6 @@
 **Development:** Maobits · **Lead Developer:** Mauricio Chara Hurtado  
 **Official support:** support@blackwhi.com
 
-> **Distribution notice:** Public source-code licensing has not been approved. The repository may be developed and tested locally; publishing to a public GitHub repository or a public FIT registry requires an explicit licensing decision. No open-source rights are claimed here.
+> **License:** Original source code is licensed under the Apache License, Version 2.0 (`Apache-2.0`). See [LICENSE](LICENSE) and [NOTICE](NOTICE). Trademarks and third-party material are outside this grant. Publishing a signed package to BlackWhi Registry requires separate technical and security approval.
 
 This repository is independent. Its parent `blackwhi-fit-stdlib` is an ordinary organizing directory, **not a Git repository**. The separate Results & Errors library is not embedded or copied here.

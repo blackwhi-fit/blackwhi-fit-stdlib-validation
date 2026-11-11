@@ -35,4 +35,4 @@ Consulta [la guía de integración](docs/INTEGRATION.es.md). La importación des
 
 ## Licencia
 
-**Pendiente de aprobación.** No se declara todavía licencia de código abierto ni permisos de redistribución comercial. La marca BLACKWHI se gestiona de forma separada.
+El código fuente original se distribuye bajo **Apache License, Version 2.0** (`SPDX: Apache-2.0`). Consulta [LICENSE](LICENSE) y [NOTICE](NOTICE). Se permite el uso comercial, la modificación y la redistribución conforme a sus términos; las marcas BLACKWHI se gestionan por separado. GitHub no equivale a una publicación firmada en Registry.

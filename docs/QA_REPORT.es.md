@@ -8,6 +8,6 @@
 - **Empaquetado:** ejecución del trabajador oficial `tools/fit/fit03_packages_v052.py`: `validate`, `pack`, `verify`, `run` PASS.
 - **Consumidor independiente:** programa con otro identificador, que carga la biblioteca versionada mediante `load()`: `validate`, `pack`, `verify`, `run` PASS.
 - **Reproducibilidad:** dos construcciones consecutivas generaron el mismo SHA-256.
-- **Licencia y publicación:** pendientes de autorización. No se han probado GitHub Actions ni el flujo de publicación en Registry/Store.
+- **Actualización documental del 2026-11-11:** se aprobó Apache-2.0 para el código original y se confirmó el primer `git push` a `blackwhi-fit/blackwhi-fit-stdlib-validation`. Las pruebas de este informe son locales; no se han probado GitHub Actions ni el flujo de firma y publicación en Registry/Store.
 
 La aceptación en el Ubuntu del usuario debe repetirse contra su copia actual del motor y CLI. Este documento no debe interpretarse como una certificación formal de seguridad ni como garantía de compatibilidad con versiones futuras.

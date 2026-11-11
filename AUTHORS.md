@@ -4,4 +4,4 @@
 **Software developer:** Maobits  
 **Official support:** support@blackwhi.com
 
-All future contributions should be recorded via Git commits and reviewed pull requests. This file does not grant a copyright license.
+All future contributions should be recorded via Git commits and reviewed pull requests. The license grant for original source code is in [LICENSE](LICENSE); this credits document neither transfers nor establishes copyright ownership.
