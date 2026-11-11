@@ -1,0 +1,27 @@
+{
+  "contract": "blackwhi.fit.program.v2",
+  "engine": {
+    "id": "starlark-rust",
+    "protocol": 1,
+    "registry_version": "0.4.8",
+    "starlark_version": "0.14.2"
+  },
+  "id": "com.blackwhi.std.validation.core",
+  "metadata": {
+    "description": "Runnable FIT-03 package envelope with pinned versioned Validation library.",
+    "publisher": "BLACKWHI / Maobits",
+    "title": "BlackWhi FIT Validation Core — distribution smoke"
+  },
+  "requested_permissions": [],
+  "required_capabilities": [],
+  "source": {
+    "entrypoint": "main.fit",
+    "modules": [
+      {
+        "path": "main.fit",
+        "sha256": "f2670dd7180a5d3bc614f3e76967ec5212a2bbce4a0f76eb8957856a4df7b23e"
+      }
+    ]
+  },
+  "version": "0.1.0"
+}

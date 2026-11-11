@@ -1,0 +1,1281 @@
+{
+  "cases": [
+    {
+      "expected": true,
+      "expr": "is_string(\"BlackWhi\")",
+      "id": "is_string.text"
+    },
+    {
+      "expected": true,
+      "expr": "is_string(\"\")",
+      "id": "is_string.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(42)",
+      "id": "is_string.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(0)",
+      "id": "is_string.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(-11)",
+      "id": "is_string.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(3.25)",
+      "id": "is_string.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(-0.125)",
+      "id": "is_string.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(True)",
+      "id": "is_string.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(False)",
+      "id": "is_string.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(None)",
+      "id": "is_string.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_string([])",
+      "id": "is_string.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_string([1, \"x\"])",
+      "id": "is_string.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_string(())",
+      "id": "is_string.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_string((1, 2))",
+      "id": "is_string.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_string({})",
+      "id": "is_string.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_string({\"x\": 1})",
+      "id": "is_string.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(\"BlackWhi\")",
+      "id": "is_integer.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(\"\")",
+      "id": "is_integer.empty_text"
+    },
+    {
+      "expected": true,
+      "expr": "is_integer(42)",
+      "id": "is_integer.int"
+    },
+    {
+      "expected": true,
+      "expr": "is_integer(0)",
+      "id": "is_integer.zero"
+    },
+    {
+      "expected": true,
+      "expr": "is_integer(-11)",
+      "id": "is_integer.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(3.25)",
+      "id": "is_integer.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(-0.125)",
+      "id": "is_integer.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(True)",
+      "id": "is_integer.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(False)",
+      "id": "is_integer.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(None)",
+      "id": "is_integer.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer([])",
+      "id": "is_integer.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer([1, \"x\"])",
+      "id": "is_integer.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer(())",
+      "id": "is_integer.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer((1, 2))",
+      "id": "is_integer.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer({})",
+      "id": "is_integer.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_integer({\"x\": 1})",
+      "id": "is_integer.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(\"BlackWhi\")",
+      "id": "is_number.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(\"\")",
+      "id": "is_number.empty_text"
+    },
+    {
+      "expected": true,
+      "expr": "is_number(42)",
+      "id": "is_number.int"
+    },
+    {
+      "expected": true,
+      "expr": "is_number(0)",
+      "id": "is_number.zero"
+    },
+    {
+      "expected": true,
+      "expr": "is_number(-11)",
+      "id": "is_number.negative_int"
+    },
+    {
+      "expected": true,
+      "expr": "is_number(3.25)",
+      "id": "is_number.float"
+    },
+    {
+      "expected": true,
+      "expr": "is_number(-0.125)",
+      "id": "is_number.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(True)",
+      "id": "is_number.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(False)",
+      "id": "is_number.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(None)",
+      "id": "is_number.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_number([])",
+      "id": "is_number.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_number([1, \"x\"])",
+      "id": "is_number.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_number(())",
+      "id": "is_number.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_number((1, 2))",
+      "id": "is_number.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_number({})",
+      "id": "is_number.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_number({\"x\": 1})",
+      "id": "is_number.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(\"BlackWhi\")",
+      "id": "is_boolean.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(\"\")",
+      "id": "is_boolean.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(42)",
+      "id": "is_boolean.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(0)",
+      "id": "is_boolean.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(-11)",
+      "id": "is_boolean.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(3.25)",
+      "id": "is_boolean.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(-0.125)",
+      "id": "is_boolean.negative_float"
+    },
+    {
+      "expected": true,
+      "expr": "is_boolean(True)",
+      "id": "is_boolean.true"
+    },
+    {
+      "expected": true,
+      "expr": "is_boolean(False)",
+      "id": "is_boolean.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(None)",
+      "id": "is_boolean.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean([])",
+      "id": "is_boolean.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean([1, \"x\"])",
+      "id": "is_boolean.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean(())",
+      "id": "is_boolean.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean((1, 2))",
+      "id": "is_boolean.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean({})",
+      "id": "is_boolean.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_boolean({\"x\": 1})",
+      "id": "is_boolean.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(\"BlackWhi\")",
+      "id": "is_list.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(\"\")",
+      "id": "is_list.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(42)",
+      "id": "is_list.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(0)",
+      "id": "is_list.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(-11)",
+      "id": "is_list.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(3.25)",
+      "id": "is_list.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(-0.125)",
+      "id": "is_list.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(True)",
+      "id": "is_list.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(False)",
+      "id": "is_list.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(None)",
+      "id": "is_list.none"
+    },
+    {
+      "expected": true,
+      "expr": "is_list([])",
+      "id": "is_list.empty_list"
+    },
+    {
+      "expected": true,
+      "expr": "is_list([1, \"x\"])",
+      "id": "is_list.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_list(())",
+      "id": "is_list.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_list((1, 2))",
+      "id": "is_list.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_list({})",
+      "id": "is_list.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_list({\"x\": 1})",
+      "id": "is_list.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(\"BlackWhi\")",
+      "id": "is_tuple.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(\"\")",
+      "id": "is_tuple.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(42)",
+      "id": "is_tuple.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(0)",
+      "id": "is_tuple.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(-11)",
+      "id": "is_tuple.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(3.25)",
+      "id": "is_tuple.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(-0.125)",
+      "id": "is_tuple.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(True)",
+      "id": "is_tuple.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(False)",
+      "id": "is_tuple.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple(None)",
+      "id": "is_tuple.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple([])",
+      "id": "is_tuple.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple([1, \"x\"])",
+      "id": "is_tuple.nested_list"
+    },
+    {
+      "expected": true,
+      "expr": "is_tuple(())",
+      "id": "is_tuple.empty_tuple"
+    },
+    {
+      "expected": true,
+      "expr": "is_tuple((1, 2))",
+      "id": "is_tuple.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple({})",
+      "id": "is_tuple.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_tuple({\"x\": 1})",
+      "id": "is_tuple.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(\"BlackWhi\")",
+      "id": "is_dict.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(\"\")",
+      "id": "is_dict.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(42)",
+      "id": "is_dict.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(0)",
+      "id": "is_dict.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(-11)",
+      "id": "is_dict.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(3.25)",
+      "id": "is_dict.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(-0.125)",
+      "id": "is_dict.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(True)",
+      "id": "is_dict.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(False)",
+      "id": "is_dict.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(None)",
+      "id": "is_dict.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict([])",
+      "id": "is_dict.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict([1, \"x\"])",
+      "id": "is_dict.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict(())",
+      "id": "is_dict.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_dict((1, 2))",
+      "id": "is_dict.tuple"
+    },
+    {
+      "expected": true,
+      "expr": "is_dict({})",
+      "id": "is_dict.empty_dict"
+    },
+    {
+      "expected": true,
+      "expr": "is_dict({\"x\": 1})",
+      "id": "is_dict.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(\"BlackWhi\")",
+      "id": "is_none.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(\"\")",
+      "id": "is_none.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(42)",
+      "id": "is_none.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(0)",
+      "id": "is_none.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(-11)",
+      "id": "is_none.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(3.25)",
+      "id": "is_none.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(-0.125)",
+      "id": "is_none.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(True)",
+      "id": "is_none.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(False)",
+      "id": "is_none.false"
+    },
+    {
+      "expected": true,
+      "expr": "is_none(None)",
+      "id": "is_none.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_none([])",
+      "id": "is_none.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_none([1, \"x\"])",
+      "id": "is_none.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_none(())",
+      "id": "is_none.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_none((1, 2))",
+      "id": "is_none.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_none({})",
+      "id": "is_none.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_none({\"x\": 1})",
+      "id": "is_none.dict"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(\"BlackWhi\")",
+      "id": "is_scalar.text"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(\"\")",
+      "id": "is_scalar.empty_text"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(42)",
+      "id": "is_scalar.int"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(0)",
+      "id": "is_scalar.zero"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(-11)",
+      "id": "is_scalar.negative_int"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(3.25)",
+      "id": "is_scalar.float"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(-0.125)",
+      "id": "is_scalar.negative_float"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(True)",
+      "id": "is_scalar.true"
+    },
+    {
+      "expected": true,
+      "expr": "is_scalar(False)",
+      "id": "is_scalar.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar(None)",
+      "id": "is_scalar.none"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar([])",
+      "id": "is_scalar.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar([1, \"x\"])",
+      "id": "is_scalar.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar(())",
+      "id": "is_scalar.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar((1, 2))",
+      "id": "is_scalar.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar({})",
+      "id": "is_scalar.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_scalar({\"x\": 1})",
+      "id": "is_scalar.dict"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(\"BlackWhi\")",
+      "id": "is_collection.text"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(\"\")",
+      "id": "is_collection.empty_text"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(42)",
+      "id": "is_collection.int"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(0)",
+      "id": "is_collection.zero"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(-11)",
+      "id": "is_collection.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(3.25)",
+      "id": "is_collection.float"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(-0.125)",
+      "id": "is_collection.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(True)",
+      "id": "is_collection.true"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(False)",
+      "id": "is_collection.false"
+    },
+    {
+      "expected": false,
+      "expr": "is_collection(None)",
+      "id": "is_collection.none"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection([])",
+      "id": "is_collection.empty_list"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection([1, \"x\"])",
+      "id": "is_collection.nested_list"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection(())",
+      "id": "is_collection.empty_tuple"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection((1, 2))",
+      "id": "is_collection.tuple"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection({})",
+      "id": "is_collection.empty_dict"
+    },
+    {
+      "expected": true,
+      "expr": "is_collection({\"x\": 1})",
+      "id": "is_collection.dict"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(\"BlackWhi\", \"string\")",
+      "id": "type_is.match.text"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(\"BlackWhi\", \"string\")",
+      "id": "type_is.mismatch.text"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(\"\", \"string\")",
+      "id": "type_is.match.empty_text"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(\"\", \"string\")",
+      "id": "type_is.mismatch.empty_text"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(42, \"int\")",
+      "id": "type_is.match.int"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(42, \"string\")",
+      "id": "type_is.mismatch.int"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(0, \"int\")",
+      "id": "type_is.match.zero"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(0, \"string\")",
+      "id": "type_is.mismatch.zero"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(-11, \"int\")",
+      "id": "type_is.match.negative_int"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(-11, \"string\")",
+      "id": "type_is.mismatch.negative_int"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(3.25, \"float\")",
+      "id": "type_is.match.float"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.25, \"string\")",
+      "id": "type_is.mismatch.float"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(-0.125, \"float\")",
+      "id": "type_is.match.negative_float"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(-0.125, \"string\")",
+      "id": "type_is.mismatch.negative_float"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(True, \"bool\")",
+      "id": "type_is.match.true"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(True, \"string\")",
+      "id": "type_is.mismatch.true"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(False, \"bool\")",
+      "id": "type_is.match.false"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(False, \"string\")",
+      "id": "type_is.mismatch.false"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(None, \"NoneType\")",
+      "id": "type_is.match.none"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(None, \"string\")",
+      "id": "type_is.mismatch.none"
+    },
+    {
+      "expected": true,
+      "expr": "type_is([], \"list\")",
+      "id": "type_is.match.empty_list"
+    },
+    {
+      "expected": false,
+      "expr": "type_is([], \"string\")",
+      "id": "type_is.mismatch.empty_list"
+    },
+    {
+      "expected": true,
+      "expr": "type_is([1, \"x\"], \"list\")",
+      "id": "type_is.match.nested_list"
+    },
+    {
+      "expected": false,
+      "expr": "type_is([1, \"x\"], \"string\")",
+      "id": "type_is.mismatch.nested_list"
+    },
+    {
+      "expected": true,
+      "expr": "type_is((), \"tuple\")",
+      "id": "type_is.match.empty_tuple"
+    },
+    {
+      "expected": false,
+      "expr": "type_is((), \"string\")",
+      "id": "type_is.mismatch.empty_tuple"
+    },
+    {
+      "expected": true,
+      "expr": "type_is((1, 2), \"tuple\")",
+      "id": "type_is.match.tuple"
+    },
+    {
+      "expected": false,
+      "expr": "type_is((1, 2), \"string\")",
+      "id": "type_is.mismatch.tuple"
+    },
+    {
+      "expected": true,
+      "expr": "type_is({}, \"dict\")",
+      "id": "type_is.match.empty_dict"
+    },
+    {
+      "expected": false,
+      "expr": "type_is({}, \"string\")",
+      "id": "type_is.mismatch.empty_dict"
+    },
+    {
+      "expected": true,
+      "expr": "type_is({\"x\": 1}, \"dict\")",
+      "id": "type_is.match.dict"
+    },
+    {
+      "expected": false,
+      "expr": "type_is({\"x\": 1}, \"string\")",
+      "id": "type_is.mismatch.dict"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"number\")",
+      "id": "type_is.unknown.0"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"scalar\")",
+      "id": "type_is.unknown.1"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"boolean\")",
+      "id": "type_is.unknown.2"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"None\")",
+      "id": "type_is.unknown.3"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"String\")",
+      "id": "type_is.unknown.4"
+    },
+    {
+      "expected": true,
+      "expr": "type_is(3.2, \"float\")",
+      "id": "type_is.unknown.5"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, \"list\")",
+      "id": "type_is.unknown.6"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, None)",
+      "id": "type_is.unknown.7"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, True)",
+      "id": "type_is.unknown.8"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, 5)",
+      "id": "type_is.unknown.9"
+    },
+    {
+      "expected": false,
+      "expr": "type_is(3.2, [\"int\"])",
+      "id": "type_is.unknown.10"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(None)",
+      "id": "json.00"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(True)",
+      "id": "json.01"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(False)",
+      "id": "json.02"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(0)",
+      "id": "json.03"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(1.5)",
+      "id": "json.04"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(\"abc\")",
+      "id": "json.05"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(\"\")",
+      "id": "json.06"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([])",
+      "id": "json.07"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value({})",
+      "id": "json.08"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([1, \"a\", None, False, 2.5])",
+      "id": "json.09"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value({\"x\": [1, {\"z\": None}]})",
+      "id": "json.10"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([[[]]])",
+      "id": "json.11"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value({1: \"a\"})",
+      "id": "json.12"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(({\"a\": 1},))",
+      "id": "json.13"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([()])",
+      "id": "json.14"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([(1, 2)])",
+      "id": "json.15"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value({\"ok\": {2: 3}})",
+      "id": "json.16"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([float(\"nan\")])",
+      "id": "json.17"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(float(\"inf\"))",
+      "id": "json.18"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(float(\"-inf\"))",
+      "id": "json.19"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(float(\"nan\"))",
+      "id": "json.20"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(float(\"1e308\"))",
+      "id": "json.21"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([], 0, 1)",
+      "id": "json.22"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(3, 0, 1)",
+      "id": "json.23"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([], 1, 1)",
+      "id": "json.24"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([1], 1, 1)",
+      "id": "json.25"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([1], 1, 2)",
+      "id": "json.26"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([[1]], 1, 9)",
+      "id": "json.27"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([[1]], 2, 9)",
+      "id": "json.28"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([], -1, 1)",
+      "id": "json.29"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([], 33, 1)",
+      "id": "json.30"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([], 1, 0)",
+      "id": "json.31"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([], 1, 4097)",
+      "id": "json.32"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(0, True, 2)",
+      "id": "json.33"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(0, 2, True)",
+      "id": "json.34"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(0, \"2\", 2)",
+      "id": "json.35"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(0, 2, \"2\")",
+      "id": "json.36"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value({\"x\": 1}, 32, 2)",
+      "id": "json.37"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value({\"x\": 1}, 32, 1)",
+      "id": "json.38"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value([1, 2], 32, 3)",
+      "id": "json.39"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value([1, 2], 32, 2)",
+      "id": "json.40"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(\"é ☀\", 0, 1)",
+      "id": "json.41"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value({\"🇨🇴\": True})",
+      "id": "json.42"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(deep_33)",
+      "id": "json.deep_33"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(deep_32)",
+      "id": "json.deep_32"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(deep_31)",
+      "id": "json.deep_31"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(many_1024)",
+      "id": "json.nodes_1024"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(many_1023)",
+      "id": "json.nodes_1023"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(cycle)",
+      "id": "json.cycle"
+    },
+    {
+      "expected": true,
+      "expr": "is_json_value(stable) and stable == {\"x\": [1, 2]}",
+      "id": "json.no_mutation"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(many_8192)",
+      "id": "json.fanout_huge_rejected"
+    },
+    {
+      "expected": false,
+      "expr": "is_json_value(dict_many_1024)",
+      "id": "json.dict_budget_rejected"
+    }
+  ],
+  "contract": "blackwhi.fit.std.validation.types.testcases.v1",
+  "engine": "starlark-rust 0.14.2"
+}

@@ -1,0 +1,13 @@
+# Release outputs are generated and distributed through tagged GitHub releases.
+dist/*.fitpkg
+dist/SHA256SUMS.txt
+dist/BUILD-REPORT.json
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.venv/
+
+# Installer marker belongs to the local machine, not Git.
+.blackwhi-install-state.json

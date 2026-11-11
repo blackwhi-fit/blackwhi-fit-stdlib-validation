@@ -1,0 +1,10 @@
+# BlackWhi FIT Standard Library — version-pinned integration smoke test.
+# This program ships with the package so the FIT-03 packager can prove
+# the vendored library imports and runs under the real Rust/Starlark engine.
+load("vendor/com.blackwhi.std.validation.core/0.1.0/modules/types.fit", "is_string", "is_integer", "is_number", "is_json_value")
+{
+    "library": "com.blackwhi.std.validation.core",
+    "version": "0.1.0",
+    "smoke": is_string("BlackWhi") and is_integer(10) and is_number(1.5) and is_json_value({"active": True}),
+    "rejects_boolean_as_integer": not is_integer(True),
+}

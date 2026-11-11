@@ -1,0 +1,2691 @@
+{
+  "contract": "blackwhi.fit.std.validation.catalog.proposal.v1",
+  "status": "PROPOSAL_NOT_IMPLEMENTED",
+  "source_project": "com.blackwhi.fitness@0.1.0",
+  "validator_count": 298,
+  "families": 21,
+  "items": [
+    {
+      "id": "validate.types.is_string",
+      "family": "types",
+      "name": "is_string",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_integer",
+      "family": "types",
+      "name": "is_integer",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_number",
+      "family": "types",
+      "name": "is_number",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_boolean",
+      "family": "types",
+      "name": "is_boolean",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_list",
+      "family": "types",
+      "name": "is_list",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_tuple",
+      "family": "types",
+      "name": "is_tuple",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_dict",
+      "family": "types",
+      "name": "is_dict",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_none",
+      "family": "types",
+      "name": "is_none",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_scalar",
+      "family": "types",
+      "name": "is_scalar",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_collection",
+      "family": "types",
+      "name": "is_collection",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.is_json_value",
+      "family": "types",
+      "name": "is_json_value",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.types.type_is",
+      "family": "types",
+      "name": "type_is",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.required",
+      "family": "presence",
+      "name": "required",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.optional",
+      "family": "presence",
+      "name": "optional",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.nullable",
+      "family": "presence",
+      "name": "nullable",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.not_null",
+      "family": "presence",
+      "name": "not_null",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.not_empty",
+      "family": "presence",
+      "name": "not_empty",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.not_blank",
+      "family": "presence",
+      "name": "not_blank",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.defined",
+      "family": "presence",
+      "name": "defined",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.forbidden",
+      "family": "presence",
+      "name": "forbidden",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.required_if",
+      "family": "presence",
+      "name": "required_if",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.forbidden_if",
+      "family": "presence",
+      "name": "forbidden_if",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.exactly_one_present",
+      "family": "presence",
+      "name": "exactly_one_present",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.presence.at_least_one_present",
+      "family": "presence",
+      "name": "at_least_one_present",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.length_min",
+      "family": "text",
+      "name": "length_min",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.length_max",
+      "family": "text",
+      "name": "length_max",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.length_between",
+      "family": "text",
+      "name": "length_between",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.length_exact",
+      "family": "text",
+      "name": "length_exact",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.starts_with",
+      "family": "text",
+      "name": "starts_with",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.ends_with",
+      "family": "text",
+      "name": "ends_with",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.contains",
+      "family": "text",
+      "name": "contains",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.not_contains",
+      "family": "text",
+      "name": "not_contains",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.equals",
+      "family": "text",
+      "name": "equals",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.equals_ignore_case",
+      "family": "text",
+      "name": "equals_ignore_case",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.one_of",
+      "family": "text",
+      "name": "one_of",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.none_of",
+      "family": "text",
+      "name": "none_of",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.alphabetic",
+      "family": "text",
+      "name": "alphabetic",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.alphanumeric",
+      "family": "text",
+      "name": "alphanumeric",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.ascii",
+      "family": "text",
+      "name": "ascii",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.printable",
+      "family": "text",
+      "name": "printable",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.lowercase",
+      "family": "text",
+      "name": "lowercase",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.uppercase",
+      "family": "text",
+      "name": "uppercase",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.slug",
+      "family": "text",
+      "name": "slug",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.identifier",
+      "family": "text",
+      "name": "identifier",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.regex_match",
+      "family": "text",
+      "name": "regex_match",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.regex_not_match",
+      "family": "text",
+      "name": "regex_not_match",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.trimmed",
+      "family": "text",
+      "name": "trimmed",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.text.allowed_characters",
+      "family": "text",
+      "name": "allowed_characters",
+      "tier": "foundation",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.unicode_scalar_valid",
+      "family": "unicode",
+      "name": "unicode_scalar_valid",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.utf8_byte_length_max",
+      "family": "unicode",
+      "name": "utf8_byte_length_max",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.nfc_normalized",
+      "family": "unicode",
+      "name": "nfc_normalized",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.nfd_normalized",
+      "family": "unicode",
+      "name": "nfd_normalized",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.nfkc_normalized",
+      "family": "unicode",
+      "name": "nfkc_normalized",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.nfkd_normalized",
+      "family": "unicode",
+      "name": "nfkd_normalized",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.unicode_category_allowed",
+      "family": "unicode",
+      "name": "unicode_category_allowed",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.unicode_script_allowed",
+      "family": "unicode",
+      "name": "unicode_script_allowed",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.no_bidi_controls",
+      "family": "unicode",
+      "name": "no_bidi_controls",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.no_invisible_controls",
+      "family": "unicode",
+      "name": "no_invisible_controls",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.unicode.grapheme_length_between",
+      "family": "unicode",
+      "name": "grapheme_length_between",
+      "tier": "advanced",
+      "package_group": "text",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.minimum",
+      "family": "numbers",
+      "name": "minimum",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.maximum",
+      "family": "numbers",
+      "name": "maximum",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.between",
+      "family": "numbers",
+      "name": "between",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.greater_than",
+      "family": "numbers",
+      "name": "greater_than",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.less_than",
+      "family": "numbers",
+      "name": "less_than",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.non_negative",
+      "family": "numbers",
+      "name": "non_negative",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.non_positive",
+      "family": "numbers",
+      "name": "non_positive",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.positive",
+      "family": "numbers",
+      "name": "positive",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.negative",
+      "family": "numbers",
+      "name": "negative",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.nonzero",
+      "family": "numbers",
+      "name": "nonzero",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.multiple_of",
+      "family": "numbers",
+      "name": "multiple_of",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.finite",
+      "family": "numbers",
+      "name": "finite",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.integer_value",
+      "family": "numbers",
+      "name": "integer_value",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.safe_integer",
+      "family": "numbers",
+      "name": "safe_integer",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.precision_max",
+      "family": "numbers",
+      "name": "precision_max",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.scale_max",
+      "family": "numbers",
+      "name": "scale_max",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.percentage_range",
+      "family": "numbers",
+      "name": "percentage_range",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.numbers.unit_interval",
+      "family": "numbers",
+      "name": "unit_interval",
+      "tier": "foundation",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.integer_string",
+      "family": "decimal",
+      "name": "integer_string",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.unsigned_integer_string",
+      "family": "decimal",
+      "name": "unsigned_integer_string",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.decimal_string",
+      "family": "decimal",
+      "name": "decimal_string",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.decimal_scale",
+      "family": "decimal",
+      "name": "decimal_scale",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.decimal_precision",
+      "family": "decimal",
+      "name": "decimal_precision",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.decimal_range",
+      "family": "decimal",
+      "name": "decimal_range",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.scientific_notation",
+      "family": "decimal",
+      "name": "scientific_notation",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.decimal_separator_allowed",
+      "family": "decimal",
+      "name": "decimal_separator_allowed",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.sign_allowed",
+      "family": "decimal",
+      "name": "sign_allowed",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.currency_code_format",
+      "family": "decimal",
+      "name": "currency_code_format",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.money_amount_string",
+      "family": "decimal",
+      "name": "money_amount_string",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.basis_points_range",
+      "family": "decimal",
+      "name": "basis_points_range",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.decimal.fixed_scale_decimal",
+      "family": "decimal",
+      "name": "fixed_scale_decimal",
+      "tier": "advanced",
+      "package_group": "numbers",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.items_min",
+      "family": "collections",
+      "name": "items_min",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.items_max",
+      "family": "collections",
+      "name": "items_max",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.items_between",
+      "family": "collections",
+      "name": "items_between",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.items_non_empty",
+      "family": "collections",
+      "name": "items_non_empty",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.unique_items",
+      "family": "collections",
+      "name": "unique_items",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.sorted_ascending",
+      "family": "collections",
+      "name": "sorted_ascending",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.sorted_descending",
+      "family": "collections",
+      "name": "sorted_descending",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.all_items",
+      "family": "collections",
+      "name": "all_items",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.any_item",
+      "family": "collections",
+      "name": "any_item",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.no_item",
+      "family": "collections",
+      "name": "no_item",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.contains_item",
+      "family": "collections",
+      "name": "contains_item",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.contains_all",
+      "family": "collections",
+      "name": "contains_all",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.contains_any",
+      "family": "collections",
+      "name": "contains_any",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.no_duplicate_key",
+      "family": "collections",
+      "name": "no_duplicate_key",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.tuple_size",
+      "family": "collections",
+      "name": "tuple_size",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.collections.homogeneous_items",
+      "family": "collections",
+      "name": "homogeneous_items",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.required_keys",
+      "family": "objects",
+      "name": "required_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.allowed_keys",
+      "family": "objects",
+      "name": "allowed_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.forbidden_keys",
+      "family": "objects",
+      "name": "forbidden_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.exact_keys",
+      "family": "objects",
+      "name": "exact_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.properties_min",
+      "family": "objects",
+      "name": "properties_min",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.properties_max",
+      "family": "objects",
+      "name": "properties_max",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.properties_between",
+      "family": "objects",
+      "name": "properties_between",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.required_together",
+      "family": "objects",
+      "name": "required_together",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.mutually_exclusive_keys",
+      "family": "objects",
+      "name": "mutually_exclusive_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.property_type",
+      "family": "objects",
+      "name": "property_type",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.property_equals",
+      "family": "objects",
+      "name": "property_equals",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.property_matches",
+      "family": "objects",
+      "name": "property_matches",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.keys_match",
+      "family": "objects",
+      "name": "keys_match",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.values_match",
+      "family": "objects",
+      "name": "values_match",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.no_unknown_keys",
+      "family": "objects",
+      "name": "no_unknown_keys",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.objects.property_name_length",
+      "family": "objects",
+      "name": "property_name_length",
+      "tier": "foundation",
+      "package_group": "collections",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_type",
+      "family": "schema",
+      "name": "schema_type",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_enum",
+      "family": "schema",
+      "name": "schema_enum",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_const",
+      "family": "schema",
+      "name": "schema_const",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_all_of",
+      "family": "schema",
+      "name": "schema_all_of",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_any_of",
+      "family": "schema",
+      "name": "schema_any_of",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_one_of",
+      "family": "schema",
+      "name": "schema_one_of",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_not",
+      "family": "schema",
+      "name": "schema_not",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.schema_if_then_else",
+      "family": "schema",
+      "name": "schema_if_then_else",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.dependent_required",
+      "family": "schema",
+      "name": "dependent_required",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.dependent_schema",
+      "family": "schema",
+      "name": "dependent_schema",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.array_items",
+      "family": "schema",
+      "name": "array_items",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.tuple_items",
+      "family": "schema",
+      "name": "tuple_items",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.object_properties",
+      "family": "schema",
+      "name": "object_properties",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.pattern_properties",
+      "family": "schema",
+      "name": "pattern_properties",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.additional_properties",
+      "family": "schema",
+      "name": "additional_properties",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.local_reference",
+      "family": "schema",
+      "name": "local_reference",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.max_schema_depth",
+      "family": "schema",
+      "name": "max_schema_depth",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.schema.max_schema_nodes",
+      "family": "schema",
+      "name": "max_schema_nodes",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.fields_equal",
+      "family": "cross_field",
+      "name": "fields_equal",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.fields_not_equal",
+      "family": "cross_field",
+      "name": "fields_not_equal",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.ordered_fields",
+      "family": "cross_field",
+      "name": "ordered_fields",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.date_range_order",
+      "family": "cross_field",
+      "name": "date_range_order",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.numeric_range_order",
+      "family": "cross_field",
+      "name": "numeric_range_order",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.one_required_of",
+      "family": "cross_field",
+      "name": "one_required_of",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.all_or_none",
+      "family": "cross_field",
+      "name": "all_or_none",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.implies_field",
+      "family": "cross_field",
+      "name": "implies_field",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.dependent_min",
+      "family": "cross_field",
+      "name": "dependent_min",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.dependent_max",
+      "family": "cross_field",
+      "name": "dependent_max",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.conditional_requirement",
+      "family": "cross_field",
+      "name": "conditional_requirement",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.cross_field.conditional_prohibition",
+      "family": "cross_field",
+      "name": "conditional_prohibition",
+      "tier": "advanced",
+      "package_group": "schema",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.iso_date",
+      "family": "datetime",
+      "name": "iso_date",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.iso_time",
+      "family": "datetime",
+      "name": "iso_time",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.iso_datetime",
+      "family": "datetime",
+      "name": "iso_datetime",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.rfc3339_datetime",
+      "family": "datetime",
+      "name": "rfc3339_datetime",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.utc_offset",
+      "family": "datetime",
+      "name": "utc_offset",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.timezone_identifier",
+      "family": "datetime",
+      "name": "timezone_identifier",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.calendar_date",
+      "family": "datetime",
+      "name": "calendar_date",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.leap_year",
+      "family": "datetime",
+      "name": "leap_year",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.date_before",
+      "family": "datetime",
+      "name": "date_before",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.date_after",
+      "family": "datetime",
+      "name": "date_after",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.date_between",
+      "family": "datetime",
+      "name": "date_between",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.datetime_before",
+      "family": "datetime",
+      "name": "datetime_before",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.datetime_after",
+      "family": "datetime",
+      "name": "datetime_after",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.datetime_between",
+      "family": "datetime",
+      "name": "datetime_between",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.age_min",
+      "family": "datetime",
+      "name": "age_min",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.age_max",
+      "family": "datetime",
+      "name": "age_max",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.weekday_allowed",
+      "family": "datetime",
+      "name": "weekday_allowed",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.unix_timestamp_range",
+      "family": "datetime",
+      "name": "unix_timestamp_range",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.iso_duration",
+      "family": "datetime",
+      "name": "iso_duration",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.datetime.duration_range",
+      "family": "datetime",
+      "name": "duration_range",
+      "tier": "advanced",
+      "package_group": "datetime",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid",
+      "family": "identifiers",
+      "name": "uuid",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v1",
+      "family": "identifiers",
+      "name": "uuid_v1",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v4",
+      "family": "identifiers",
+      "name": "uuid_v4",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v5",
+      "family": "identifiers",
+      "name": "uuid_v5",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v6",
+      "family": "identifiers",
+      "name": "uuid_v6",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v7",
+      "family": "identifiers",
+      "name": "uuid_v7",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.uuid_v8",
+      "family": "identifiers",
+      "name": "uuid_v8",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.ulid",
+      "family": "identifiers",
+      "name": "ulid",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.hexadecimal",
+      "family": "identifiers",
+      "name": "hexadecimal",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.base64",
+      "family": "identifiers",
+      "name": "base64",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.base64url",
+      "family": "identifiers",
+      "name": "base64url",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.sha256_hex",
+      "family": "identifiers",
+      "name": "sha256_hex",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.sha512_hex",
+      "family": "identifiers",
+      "name": "sha512_hex",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.identifiers.id_charset",
+      "family": "identifiers",
+      "name": "id_charset",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ipv4",
+      "family": "network",
+      "name": "ipv4",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ipv6",
+      "family": "network",
+      "name": "ipv6",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ip_address",
+      "family": "network",
+      "name": "ip_address",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ipv4_cidr",
+      "family": "network",
+      "name": "ipv4_cidr",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ipv6_cidr",
+      "family": "network",
+      "name": "ipv6_cidr",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.port",
+      "family": "network",
+      "name": "port",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.hostname",
+      "family": "network",
+      "name": "hostname",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.dns_label",
+      "family": "network",
+      "name": "dns_label",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.domain_name",
+      "family": "network",
+      "name": "domain_name",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.idn_domain",
+      "family": "network",
+      "name": "idn_domain",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.mac_address",
+      "family": "network",
+      "name": "mac_address",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.ip_in_cidr",
+      "family": "network",
+      "name": "ip_in_cidr",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.private_ipv4",
+      "family": "network",
+      "name": "private_ipv4",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.loopback_ip",
+      "family": "network",
+      "name": "loopback_ip",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.network.socket_address_format",
+      "family": "network",
+      "name": "socket_address_format",
+      "tier": "advanced",
+      "package_group": "network",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.uri",
+      "family": "web",
+      "name": "uri",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.absolute_url",
+      "family": "web",
+      "name": "absolute_url",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.relative_url",
+      "family": "web",
+      "name": "relative_url",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.http_url",
+      "family": "web",
+      "name": "http_url",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.https_url",
+      "family": "web",
+      "name": "https_url",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.url_path",
+      "family": "web",
+      "name": "url_path",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.query_string",
+      "family": "web",
+      "name": "query_string",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.http_method",
+      "family": "web",
+      "name": "http_method",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.header_name",
+      "family": "web",
+      "name": "header_name",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.header_value",
+      "family": "web",
+      "name": "header_value",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.mime_type",
+      "family": "web",
+      "name": "mime_type",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.media_type",
+      "family": "web",
+      "name": "media_type",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.semver",
+      "family": "web",
+      "name": "semver",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.web.semver_range",
+      "family": "web",
+      "name": "semver_range",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.email_format",
+      "family": "contacts_i18n",
+      "name": "email_format",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.email_domain_format",
+      "family": "contacts_i18n",
+      "name": "email_domain_format",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.phone_e164",
+      "family": "contacts_i18n",
+      "name": "phone_e164",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.phone_extension",
+      "family": "contacts_i18n",
+      "name": "phone_extension",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.country_code_alpha2",
+      "family": "contacts_i18n",
+      "name": "country_code_alpha2",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.country_code_alpha3",
+      "family": "contacts_i18n",
+      "name": "country_code_alpha3",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.language_tag",
+      "family": "contacts_i18n",
+      "name": "language_tag",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.locale_tag",
+      "family": "contacts_i18n",
+      "name": "locale_tag",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.postal_code_generic",
+      "family": "contacts_i18n",
+      "name": "postal_code_generic",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.username_format",
+      "family": "contacts_i18n",
+      "name": "username_format",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.user_handle",
+      "family": "contacts_i18n",
+      "name": "user_handle",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.display_name",
+      "family": "contacts_i18n",
+      "name": "display_name",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.password_policy",
+      "family": "contacts_i18n",
+      "name": "password_policy",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.contacts_i18n.password_confirmation",
+      "family": "contacts_i18n",
+      "name": "password_confirmation",
+      "tier": "advanced",
+      "package_group": "formats",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.safe_relative_path",
+      "family": "files_paths",
+      "name": "safe_relative_path",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.path_without_parent_traversal",
+      "family": "files_paths",
+      "name": "path_without_parent_traversal",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.path_not_absolute",
+      "family": "files_paths",
+      "name": "path_not_absolute",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.path_segment",
+      "family": "files_paths",
+      "name": "path_segment",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.filename",
+      "family": "files_paths",
+      "name": "filename",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.file_extension",
+      "family": "files_paths",
+      "name": "file_extension",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.extension_in",
+      "family": "files_paths",
+      "name": "extension_in",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.no_nul_byte",
+      "family": "files_paths",
+      "name": "no_nul_byte",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.filename_length",
+      "family": "files_paths",
+      "name": "filename_length",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.file_size_range",
+      "family": "files_paths",
+      "name": "file_size_range",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.file_size_max",
+      "family": "files_paths",
+      "name": "file_size_max",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.declared_mime_type",
+      "family": "files_paths",
+      "name": "declared_mime_type",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.allowed_mime_type",
+      "family": "files_paths",
+      "name": "allowed_mime_type",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.archive_member_path",
+      "family": "files_paths",
+      "name": "archive_member_path",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.files_paths.content_hash_format",
+      "family": "files_paths",
+      "name": "content_hash_format",
+      "tier": "advanced",
+      "package_group": "files",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.image_dimensions",
+      "family": "media_metadata",
+      "name": "image_dimensions",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.image_width",
+      "family": "media_metadata",
+      "name": "image_width",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.image_height",
+      "family": "media_metadata",
+      "name": "image_height",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.image_aspect_ratio",
+      "family": "media_metadata",
+      "name": "image_aspect_ratio",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.video_duration",
+      "family": "media_metadata",
+      "name": "video_duration",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.frame_rate",
+      "family": "media_metadata",
+      "name": "frame_rate",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.video_dimensions",
+      "family": "media_metadata",
+      "name": "video_dimensions",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.audio_duration",
+      "family": "media_metadata",
+      "name": "audio_duration",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.sample_rate",
+      "family": "media_metadata",
+      "name": "sample_rate",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.audio_channels",
+      "family": "media_metadata",
+      "name": "audio_channels",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.bitrate_range",
+      "family": "media_metadata",
+      "name": "bitrate_range",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.media_metadata.codec_identifier",
+      "family": "media_metadata",
+      "name": "codec_identifier",
+      "tier": "extension",
+      "package_group": "media",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.latitude",
+      "family": "geo",
+      "name": "latitude",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.longitude",
+      "family": "geo",
+      "name": "longitude",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.coordinates",
+      "family": "geo",
+      "name": "coordinates",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.longitude_latitude_pair",
+      "family": "geo",
+      "name": "longitude_latitude_pair",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.altitude",
+      "family": "geo",
+      "name": "altitude",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.bounding_box",
+      "family": "geo",
+      "name": "bounding_box",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.point_in_box",
+      "family": "geo",
+      "name": "point_in_box",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.geojson_position",
+      "family": "geo",
+      "name": "geojson_position",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.geojson_bbox",
+      "family": "geo",
+      "name": "geojson_bbox",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.geojson_geometry_shape",
+      "family": "geo",
+      "name": "geojson_geometry_shape",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.geo.coordinate_precision",
+      "family": "geo",
+      "name": "coordinate_precision",
+      "tier": "extension",
+      "package_group": "geo",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.unit_symbol",
+      "family": "measurements",
+      "name": "unit_symbol",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.measurement_object",
+      "family": "measurements",
+      "name": "measurement_object",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.measurement_unit_match",
+      "family": "measurements",
+      "name": "measurement_unit_match",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.compatible_units",
+      "family": "measurements",
+      "name": "compatible_units",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.quantity_positive",
+      "family": "measurements",
+      "name": "quantity_positive",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.quantity_non_negative",
+      "family": "measurements",
+      "name": "quantity_non_negative",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.measurement_min",
+      "family": "measurements",
+      "name": "measurement_min",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.measurement_max",
+      "family": "measurements",
+      "name": "measurement_max",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.measurement_between",
+      "family": "measurements",
+      "name": "measurement_between",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.measurements.duration_nonnegative",
+      "family": "measurements",
+      "name": "duration_nonnegative",
+      "tier": "extension",
+      "package_group": "units",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.string_byte_budget",
+      "family": "safety_limits",
+      "name": "string_byte_budget",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.collection_item_budget",
+      "family": "safety_limits",
+      "name": "collection_item_budget",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.object_property_budget",
+      "family": "safety_limits",
+      "name": "object_property_budget",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.nesting_depth_budget",
+      "family": "safety_limits",
+      "name": "nesting_depth_budget",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.schema_complexity_budget",
+      "family": "safety_limits",
+      "name": "schema_complexity_budget",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.regex_pattern_length",
+      "family": "safety_limits",
+      "name": "regex_pattern_length",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.max_error_count",
+      "family": "safety_limits",
+      "name": "max_error_count",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.sanitized_error_metadata",
+      "family": "safety_limits",
+      "name": "sanitized_error_metadata",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.forbidden_sensitive_field",
+      "family": "safety_limits",
+      "name": "forbidden_sensitive_field",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.pii_field_marked",
+      "family": "safety_limits",
+      "name": "pii_field_marked",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.safety_limits.data_retention_days_range",
+      "family": "safety_limits",
+      "name": "data_retention_days_range",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_all",
+      "family": "composition",
+      "name": "rule_all",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_any",
+      "family": "composition",
+      "name": "rule_any",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_one",
+      "family": "composition",
+      "name": "rule_one",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_not",
+      "family": "composition",
+      "name": "rule_not",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_when",
+      "family": "composition",
+      "name": "rule_when",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_each",
+      "family": "composition",
+      "name": "rule_each",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_field",
+      "family": "composition",
+      "name": "rule_field",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_optional",
+      "family": "composition",
+      "name": "rule_optional",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_nullable",
+      "family": "composition",
+      "name": "rule_nullable",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    },
+    {
+      "id": "validate.composition.rule_transform_then_validate",
+      "family": "composition",
+      "name": "rule_transform_then_validate",
+      "tier": "foundation",
+      "package_group": "core",
+      "status": "proposed",
+      "implemented": false
+    }
+  ]
+}

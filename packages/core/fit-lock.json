@@ -1,0 +1,15 @@
+{
+  "contract": "blackwhi.fit.lock.v1",
+  "libraries": [
+    {
+      "id": "com.blackwhi.std.validation.core",
+      "manifest_sha256": "d9b908048cba5929c202b8c53adbe902a1fe9324777b795dea22f5a363625472",
+      "version": "0.1.0"
+    }
+  ],
+  "program": {
+    "id": "com.blackwhi.std.validation.core",
+    "manifest_sha256": "984e34057348cfb990022bdc098de6655af60b2c69f0d26dcacfdf6d615c8e48",
+    "version": "0.1.0"
+  }
+}

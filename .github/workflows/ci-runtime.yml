@@ -1,0 +1,23 @@
+name: Rust FIT runtime acceptance
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  actual-fit-engine:
+    # Register an independently trusted runner with prebuilt, reviewed FIT tooling.
+    # This job deliberately remains queued if no FIT-equipped runner exists.
+    runs-on: [self-hosted, linux, x64, blackwhi-fit]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2 immutable commit
+      - name: Execute real Rust/Starlark tests
+        run: python3 tests/run_fit_tests.py --engine "$BLACKWHI_ENGINE_BIN"
+        env:
+          BLACKWHI_ENGINE_BIN: ${{ vars.BLACKWHI_ENGINE_BIN }}
+      - name: Verify real FIT-03 packaging
+        run: python3 scripts/build_fitpkg.py --blackwhi-root "$BLACKWHI_ROOT"
+        env:
+          BLACKWHI_ROOT: ${{ vars.BLACKWHI_ROOT }}

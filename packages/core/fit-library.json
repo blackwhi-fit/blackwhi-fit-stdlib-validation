@@ -1,0 +1,16 @@
+{
+  "contract": "blackwhi.fit.library.v1",
+  "id": "com.blackwhi.std.validation.core",
+  "metadata": {
+    "description": "Twelve pure and bounded FIT type predicates; developed by Maobits.",
+    "publisher": "BLACKWHI / Maobits",
+    "title": "BlackWhi FIT Validation — Types & Basic Data"
+  },
+  "modules": [
+    {
+      "path": "modules/types.fit",
+      "sha256": "0e68c0e928b0aa71c6bd868b3b8f0a0019b0ddc381fb00628e893aa117638679"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,109 @@
+# BLACKWHI FIT Standard Library — Validation: Types & Basic Data
+# Developed by Maobits; Lead Developer: Mauricio Chara Hurtado.
+# Support: support@blackwhi.com
+# Deterministic pure predicates; no dynamic evaluation or I/O.
+
+# Exact type comparisons intentionally prevent bool/int coercion.
+def is_string(value):
+    """Return True only for FIT string values."""
+    return type(value) == "string"
+
+def is_integer(value):
+    """Return True only for FIT integers, never booleans."""
+    return type(value) == "int"
+
+def is_number(value):
+    """Return True for FIT int or float, excluding bool."""
+    t = type(value)
+    return t == "int" or t == "float"
+
+def is_boolean(value):
+    """Return True only for FIT bool."""
+    return type(value) == "bool"
+
+def is_list(value):
+    """Return True only for FIT list."""
+    return type(value) == "list"
+
+def is_tuple(value):
+    """Return True only for FIT tuple."""
+    return type(value) == "tuple"
+
+def is_dict(value):
+    """Return True only for FIT dict."""
+    return type(value) == "dict"
+
+def is_none(value):
+    """Return True only for FIT NoneType."""
+    return type(value) == "NoneType"
+
+def is_scalar(value):
+    """Return True for string, bool, int and float; None is excluded."""
+    t = type(value)
+    return t == "string" or t == "int" or t == "float" or t == "bool"
+
+def is_collection(value):
+    """Return True for list, tuple or dict; strings are not collections."""
+    t = type(value)
+    return t == "list" or t == "tuple" or t == "dict"
+
+def type_is(value, expected):
+    """Match an exact canonical FIT runtime type name.
+
+    Unknown/non-string type names return False, without coercion.
+    """
+    if type(expected) != "string":
+        return False
+    return expected in ["string", "int", "float", "bool", "list", "tuple", "dict", "NoneType"] and type(value) == expected
+
+def is_json_value(value, max_depth = 32, max_nodes = 1024):
+    """Check if a value is JSON-compatible without recursion.
+
+    Traverse at most max_nodes values, at most max_depth levels; return
+    False on unsupported types or exceeded budgets. Tuples are not JSON.
+    This function never serializes or mutates the input value.
+    """
+    if type(max_depth) != "int" or type(max_nodes) != "int":
+        return False
+    if max_depth < 0 or max_depth > 32 or max_nodes < 1 or max_nodes > 4096:
+        return False
+    pending = [(value, 0)]
+    for _ in range(max_nodes):
+        if len(pending) == 0:
+            return True
+        item = pending.pop()
+        current = item[0]
+        depth = item[1]
+        t = type(current)
+        if t == "NoneType" or t == "string" or t == "bool" or t == "int":
+            continue
+        if t == "float":
+            # Starlark's textual special-float spellings denote non-JSON numbers.
+            representation = str(current).lower()
+            if representation in ("nan", "+nan", "-nan", "inf", "+inf", "-inf", "infinity", "+infinity", "-infinity"):
+                return False
+            continue
+        if t == "list":
+            # Reject oversized fan-out BEFORE allocating pending work items.
+            remaining = max_nodes - (_ + 1) - len(pending)
+            if len(current) > remaining:
+                return False
+            if depth >= max_depth:
+                return False
+            for child in current:
+                pending.append((child, depth + 1))
+            continue
+        if t == "dict":
+            # Both keys and values are checked without exceeding the work budget.
+            remaining = max_nodes - (_ + 1) - len(pending)
+            if len(current) > remaining:
+                return False
+            if depth >= max_depth:
+                return False
+            for key in current:
+                if type(key) != "string":
+                    return False
+                pending.append((current[key], depth + 1))
+            continue
+        return False
+    return len(pending) == 0
